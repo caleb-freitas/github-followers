@@ -75,7 +75,7 @@ const calculateArrayDifference = (arrayA, arrayB) => {
     return difference
 }
 
-;(async () => {
+(async () => {
     try {
         const followers = await listUsers("followers")
         const following = await listUsers("following")
